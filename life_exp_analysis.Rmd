@@ -1,16 +1,12 @@
 -----
 Title: "Examine Life Expectancy"
 Author: "Stephen Betsock"
-Date: "`r SysDate()`"
 Output: pdf_document
 -----
 
 
 
-```{r, include=FALSE}
-knit::opts_chunk$set(echo=TRUE)
+```{r,}
+sum(3,5)
 ```
-#Abstract
-Oeppen Analysis
 
-#Analysis
