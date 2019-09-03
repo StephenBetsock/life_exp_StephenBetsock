@@ -20,6 +20,6 @@ gapminder_unfiltered %>%
 sumdat %>%
   ggplot() +
     geom_point(mapping = aes(x = year, y = lifeExp, color = country)) +
-    geom_smooth(mapping = aes(x = year, y = lifeExp), method = "lm")
+    geom_smooth(mapping = aes(x = year, y = lifeExp), method = "lm", se = FALSE)
 ```
 
